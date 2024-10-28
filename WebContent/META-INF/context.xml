@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docbase="myhome"
+		path="/myhome"
+		source="org.eclipse.jst.jee.server:myhome">
+	
+	<Resource name="jdbc/mysql"
+		username="root"
+		password="Kgh0103!"
+		url="jdbc:mysql://127.0.0.1:3306/myhomedb?useUnicode=true&amp;characterEncoding=utf8"
+		driverClassName="org.mariadb.jdbc.Driver"
+		type="javax.sql.DataSource"
+		initalSize = "4"
+		maxTotal = "4"
+		maxIdle= "4"
+		maxActive="4"
+		minIdle= "2"
+		maxWaitmillis="1000"/>
+	
+	
+	
+	
+</Context>
